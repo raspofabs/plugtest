@@ -1,0 +1,17 @@
+[project]
+name = "amber-core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Richard Fabian", email = "raspo1@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+amber-core = "amber_core:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
